@@ -59,7 +59,6 @@ const News = () => {
 
     let currentIndex = 0
     const cardWidth = 350 // Card width + gap
-    const visibleCards = 3
     const totalCards = newsItems.length
 
     const autoScroll = () => {

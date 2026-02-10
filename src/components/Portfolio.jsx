@@ -151,6 +151,7 @@ const Portfolio = () => {
         <motion.div 
           ref={scrollContainerRef}
           className="projects-grid"
+          data-current-index={currentIndex}
           variants={containerVariants}
           initial="hidden"
           whileInView="visible"
