@@ -108,11 +108,7 @@ const Partners = () => {
             >
               <div className="partner-logo">
                 <div className="logo-icon">
-                  <img src={partner.logo} alt={partner.name} className="partner-logo-image" />
-                </div>
-                <div className="logo-text">
-                  <div className="logo-name">{partner.name}</div>
-                  <div className="logo-type">{partner.type}</div>
+                  <img src={partner.logo} alt="" className="partner-logo-image" />
                 </div>
               </div>
             </motion.div>

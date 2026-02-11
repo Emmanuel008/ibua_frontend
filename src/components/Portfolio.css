@@ -42,8 +42,8 @@
   justify-content: center;
   width: 40px;
   height: 40px;
-  background-color: #e8f5e8;
-  color: #2d5a2d;
+  background-color: #088395;
+  color: #ffffff;
   border-radius: 8px;
   font-weight: 700;
   font-size: 16px;
@@ -137,7 +137,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background: linear-gradient(135deg, rgba(0, 255, 65, 0.9) 0%, rgba(0, 200, 50, 0.9) 100%);
+  background: linear-gradient(135deg, rgba(8, 131, 149, 0.9) 0%, rgba(6, 107, 122, 0.9) 100%);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -151,7 +151,7 @@
 
 .view-project-btn {
   background-color: #ffffff;
-  color: #2d5a2d;
+  color: #088395;
   border: none;
   padding: 12px 24px;
   border-radius: 25px;
@@ -185,8 +185,8 @@
 }
 
 .project-tag {
-  background-color: #e8f5e8;
-  color: #2d5a2d;
+  background-color: #088395;
+  color: #ffffff;
   padding: 4px 12px;
   border-radius: 12px;
   font-size: 12px;
@@ -282,8 +282,8 @@
 }
 
 .modal-tag {
-  background-color: var(--lime-green);
-  color: var(--black);
+  background-color: #088395;
+  color: #ffffff;
   padding: 8px 16px;
   border-radius: 20px;
   font-size: 0.9rem;

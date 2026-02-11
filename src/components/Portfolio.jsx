@@ -189,20 +189,6 @@ const Portfolio = () => {
               </div>
               <div className="project-info">
                 <h3 className="project-title">{project.title}</h3>
-                <div className="project-tags">
-                  {project.tags.map((tag, tagIndex) => (
-                    <motion.span 
-                      key={tagIndex}
-                      className="project-tag"
-                      initial={{ opacity: 0, scale: 0 }}
-                      whileInView={{ opacity: 1, scale: 1 }}
-                      transition={{ duration: 0.3, delay: tagIndex * 0.1 }}
-                      viewport={{ once: true }}
-                    >
-                      {tag}
-                    </motion.span>
-                  ))}
-                </div>
               </div>
             </motion.div>
           ))}
@@ -235,13 +221,6 @@ const Portfolio = () => {
               />
               <h3 className="modal-title">{selectedProject.title}</h3>
               <p className="modal-description">{selectedProject.description}</p>
-              <div className="modal-tags">
-                {selectedProject.tags.map((tag, index) => (
-                  <span key={index} className="modal-tag">
-                    {tag}
-                  </span>
-                ))}
-              </div>
             </motion.div>
           </motion.div>
         )}

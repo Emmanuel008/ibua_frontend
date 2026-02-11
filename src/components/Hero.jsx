@@ -51,7 +51,7 @@ const Hero = () => {
                 typingInterval={50}
                 deletingInterval={30}
                 emptyPause={1000}
-                color="#00ff41"
+                color="#088395"
               />
             </strong>
           </motion.p>

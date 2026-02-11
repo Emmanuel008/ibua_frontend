@@ -1,56 +1,11 @@
 import React, { useEffect, useRef } from 'react'
+import { useNavigate } from 'react-router-dom'
 import { motion } from 'framer-motion'
-import naneImage from '../assets/nane.jpg'
-import sitaImage from '../assets/sita.jpg'
-import tisaImage from '../assets/tisa.jpg'
-import mojaImage from '../assets/moja.jpg'
-import tatuImage from '../assets/tatu.jpg'
+import { newsItems } from '../data/news'
 import './News.css'
 
 const News = () => {
-  const newsItems = [
-    {
-      id: 1,
-      title: "Stakeholder Engagement",
-      description: "iBUA Hub connected with key partners and stakeholders to strengthen collaboration and drive impactful innovation initiatives.",
-      image: naneImage,
-      category: "Engagement",
-      url: "#"
-    },
-    {
-      id: 2,
-      title: "Talent Pool Program",
-      description: "The hub continued to nurture young innovators and entrepreneurs with creative ideas that can transform communities.",
-      image: tatuImage,
-      category: "Programs",
-      url: "#"
-    },
-    {
-      id: 3,
-      title: "Training Management",
-      description: "Tailored training sessions were conducted to equip participants with practical skills in innovation and entrepreneurship.",
-      image: mojaImage,
-      category: "Training",
-      url: "#"
-    },
-    {
-      id: 4,
-      title: "Capacity Building Workshop",
-      description: "iBUA facilitated a hands-on workshop to support institutions and individuals in building strong, sustainable innovation spaces.",
-      image: tisaImage,
-      category: "Workshops",
-      url: "#"
-    },
-    {
-      id: 5,
-      title: "Community Event",
-      description: "iBUA hosted an engaging community event, bringing together innovators, entrepreneurs, and changemakers to share knowledge, network, and celebrate creativity.",
-      image: sitaImage,
-      category: "Events",
-      url: "#"
-    },
-  ]
-
+  const navigate = useNavigate()
   const scrollContainerRef = useRef(null)
 
   useEffect(() => {
@@ -74,7 +29,7 @@ const News = () => {
     const interval = setInterval(autoScroll, 2000)
 
     return () => clearInterval(interval)
-  }, [newsItems.length])
+  }, [])
 
   const containerVariants = {
     hidden: { opacity: 0 },
@@ -141,6 +96,11 @@ const News = () => {
                 y: -10,
                 transition: { duration: 0.3 }
               }}
+              onClick={() => navigate(`/news/${item.id}`)}
+              onKeyDown={(e) => e.key === 'Enter' && navigate(`/news/${item.id}`)}
+              role="button"
+              tabIndex={0}
+              aria-label={`Read more: ${item.title}`}
             >
               <div className="card-image">
                 <img src={item.image} alt={item.title} />
@@ -152,12 +112,12 @@ const News = () => {
               <div className="card-content">
                 <h3 className="card-title">{item.title}</h3>
                 <p className="card-description">{item.description}</p>
-                <a href={item.url} className="card-link" target="_blank" rel="noopener noreferrer">
+                <span className="card-link">
                   Read More
                   <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
                     <path d="M7 17L17 7M17 7H7M17 7V17" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
                   </svg>
-                </a>
+                </span>
               </div>
             </motion.article>
           ))}

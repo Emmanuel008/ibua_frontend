@@ -44,7 +44,7 @@
 .badge-number {
   width: 40px;
   height: 40px;
-  background-color: #00ff41;
+  background-color: #088395;
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -115,21 +115,21 @@
 }
 
 .social-link {
-  color: #00ff41;
+  color: #088395;
   text-decoration: none;
   display: flex;
   align-items: center;
   justify-content: center;
   width: 48px;
   height: 48px;
-  border: 2px solid #00ff41;
+  border: 2px solid #088395;
   border-radius: 50%;
   transition: all 0.3s ease;
   background-color: transparent;
 }
 
 .social-link:hover {
-  background-color: #00ff41;
+  background-color: #088395;
   color: #000;
   transform: translateY(-2px);
   box-shadow: 0 4px 15px rgba(0, 255, 65, 0.3);
@@ -186,21 +186,21 @@
 }
 
 .get-in-touch-card .social-link {
-  color: #00ff41;
+  color: #088395;
   text-decoration: none;
   display: flex;
   align-items: center;
   justify-content: center;
   width: 40px;
   height: 40px;
-  border: 2px solid #00ff41;
+  border: 2px solid #088395;
   border-radius: 50%;
   transition: all 0.3s ease;
   background-color: transparent;
 }
 
 .get-in-touch-card .social-link:hover {
-  background-color: #00ff41;
+  background-color: #088395;
   color: #000;
   transform: translateY(-2px);
   box-shadow: 0 4px 15px rgba(0, 255, 65, 0.3);
@@ -227,7 +227,7 @@
 }
 
 .contact-btn {
-  background-color: #00ff41;
+  background-color: #088395;
   color: #000;
   border: none;
   padding: 16px 32px;
@@ -243,7 +243,7 @@
 }
 
 .contact-btn:hover {
-  background-color: #00e639;
+  background-color: #088395;
   transform: translateY(-2px);
   box-shadow: 0 8px 25px rgba(0, 255, 65, 0.3);
 }
@@ -296,7 +296,7 @@
 .form-input:focus,
 .form-textarea:focus {
   outline: none;
-  border-bottom-color: #00ff41;
+  border-bottom-color: #088395;
 }
 
 .form-textarea {
@@ -312,7 +312,7 @@
 }
 
 .submit-btn {
-  background-color: #00ff41;
+  background-color: #088395;
   color: #000;
   border: none;
   padding: 16px 32px;
@@ -325,7 +325,7 @@
 }
 
 .submit-btn:hover {
-  background-color: #00e639;
+  background-color: #088395;
   transform: translateY(-2px);
   box-shadow: 0 8px 25px rgba(0, 255, 65, 0.3);
 }
@@ -345,8 +345,8 @@
 }
 
 .external-btn:hover {
-  border-color: #00ff41;
-  color: #00ff41;
+  border-color: #088395;
+  color: #088395;
   transform: translateY(-2px);
   box-shadow: 0 8px 25px rgba(0, 255, 65, 0.2);
 }

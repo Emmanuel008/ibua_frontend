@@ -28,8 +28,8 @@ body {
 
 /* Color variables */
 :root {
-  --lime-green: #00ff41;
-  --dark-green: #1a1a1a;
+  --lime-green: #088395;
+  --dark-green: #066b7a;
   --black: #000000;
   --white: #ffffff;
   --gray: #666666;
@@ -64,7 +64,7 @@ body {
 }
 
 .btn-primary:hover {
-  background-color: #00e63a;
+  background-color: #088395;
   transform: translateY(-2px);
 }
 
