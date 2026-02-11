@@ -123,7 +123,7 @@
 .card-image {
   position: relative;
   width: 100%;
-  height: 150px;
+  height: 110px;
   overflow: hidden;
 }
 
@@ -177,23 +177,31 @@
 }
 
 .card-content {
-  padding: 15px;
+  padding: 12px 15px;
 }
 
 .card-title {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   font-weight: 700;
   color: #2c3e50;
-  margin-bottom: 8px;
-  line-height: 1.2;
+  margin-bottom: 6px;
+  line-height: 1.25;
   letter-spacing: -0.01em;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
 
 .card-description {
-  font-size: 0.85rem;
+  font-size: 0.8rem;
   color: #6c757d;
-  line-height: 1.4;
-  margin-bottom: 12px;
+  line-height: 1.35;
+  margin-bottom: 8px;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
 
 .card-link {
@@ -271,7 +279,7 @@
   }
   
   .card-image {
-    height: 140px;
+    height: 100px;
   }
   
   .card-content {
@@ -317,11 +325,11 @@
   }
   
   .card-image {
-    height: 120px;
+    height: 90px;
   }
   
   .card-content {
-    padding: 12px;
+    padding: 10px 12px;
   }
   
   .card-title {
@@ -331,6 +339,6 @@
   
   .card-description {
     font-size: 0.75rem;
-    margin-bottom: 8px;
+    margin-bottom: 6px;
   }
 }

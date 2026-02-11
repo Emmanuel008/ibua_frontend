@@ -6,6 +6,7 @@
 }
 
 html {
+  font-size: 14px;
   scroll-behavior: smooth;
 }
 
@@ -55,7 +56,7 @@ body {
   text-decoration: none;
   cursor: pointer;
   transition: all 0.3s ease;
-  font-size: 16px;
+  font-size: 0.95rem;
 }
 
 .btn-primary {
