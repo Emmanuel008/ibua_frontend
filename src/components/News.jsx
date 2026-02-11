@@ -2,7 +2,7 @@ import React, { useEffect, useRef } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { motion } from 'framer-motion'
 import { newsItems } from '../data/news'
-import './News.css'
+import '../styles/News.css'
 
 const News = () => {
   const navigate = useNavigate()

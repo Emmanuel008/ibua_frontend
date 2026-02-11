@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
-import './FAQ.css'
+import '../styles/FAQ.css'
 
 const FAQ = () => {
   const [openIndex, setOpenIndex] = useState(2) // Third question is open by default

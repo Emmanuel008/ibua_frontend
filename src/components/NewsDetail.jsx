@@ -2,7 +2,7 @@ import React from 'react'
 import { useParams, useNavigate } from 'react-router-dom'
 import { motion } from 'framer-motion'
 import { newsItems } from '../data/news'
-import './NewsDetail.css'
+import '../styles/NewsDetail.css'
 
 const NewsDetail = () => {
   const { id } = useParams()

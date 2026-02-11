@@ -1,6 +1,6 @@
 import React from 'react'
 import { motion } from 'framer-motion'
-import './StatsSection.css'
+import '../styles/StatsSection.css'
 
 const StatsSection = () => {
   const containerVariants = {

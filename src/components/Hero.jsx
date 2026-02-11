@@ -2,7 +2,7 @@ import React from 'react'
 import { motion } from 'framer-motion'
 import RotatingText from 'react-rotating-text'
 import heroImage from '../assets/hero.jpg'
-import './Hero.css'
+import '../styles/Hero.css'
 
 const Hero = () => {
   const scrollToTop = () => {

@@ -3,7 +3,7 @@ import { motion } from 'framer-motion'
 import buniLogo from '../assets/buni logo.png'
 import costechLogo from '../assets/COSTECH LOGO.png'
 import planningLogo from '../assets/planning.png'
-import './Partners.css'
+import '../styles/Partners.css'
 
 const Partners = () => {
   const partners = [

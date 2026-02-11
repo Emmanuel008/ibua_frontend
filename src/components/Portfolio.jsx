@@ -4,7 +4,7 @@ import sitaImage from '../assets/sita.jpg'
 import sabaImage from '../assets/saba.jpg'
 import nneImage from '../assets/moja.jpg'
 import mojaImage from '../assets/nne.jpeg'
-import './Portfolio.css'
+import '../styles/Portfolio.css'
 
 const Portfolio = () => {
   const [selectedProject, setSelectedProject] = useState(null)

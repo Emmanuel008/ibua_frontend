@@ -1,7 +1,7 @@
 import React from 'react'
 import { motion } from 'framer-motion'
 import naneImage from '../assets/nane.jpg'
-import './Services.css'
+import '../styles/Services.css'
 
 const Services = () => {
   const services = [

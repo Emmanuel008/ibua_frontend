@@ -12,7 +12,7 @@ import Footer from './components/Footer'
 import Contact from './components/Contact'
 import ProgramDetail from './components/ProgramDetail'
 import NewsDetail from './components/NewsDetail'
-import './App.css'
+import './styles/App.css'
 
 function HomePage() {
   const location = useLocation()
